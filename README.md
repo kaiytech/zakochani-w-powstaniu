@@ -6,6 +6,8 @@ Layout zaprojektowany przez: Empressia
 
 Strona zakodowana przez: Kajetan Krawczyk
 
+Preview: http://kajtekjestem.pl/zakochani-w-powstaniu/index.html
+
 
 # Zawartość
 1. Początek layoutu to tooltip. Widnieje on tam, ponieważ nie należy do żadnego innego diva, a musi być absolutny do całości strony
