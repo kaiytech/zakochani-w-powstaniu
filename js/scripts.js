@@ -86,13 +86,3 @@ $(function() {
     });
         
 });
-
-
-function prependClass(sel, strClass) {
-    var $el = jQuery(sel);
-
-    /* prepend class */
-    var classes = $el.attr('class');
-    classes = strClass +' ' +classes;
-    $el.attr('class', classes);
-}
