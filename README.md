@@ -8,6 +8,10 @@ Strona zakodowana przez: Kajetan Krawczyk
 
 Preview: http://kajtekjestem.pl/zakochani-w-powstaniu/index.html
 
+# Update 18/10/2018
+* Obrazek w tle (pierwszy po lewej) teraz rzeczywiście się konwertuje z kolorowego na sepię w tle.
+* "Czytaj więcej..." działa.
+
 
 # Zawartość
 1. Początek layoutu to tooltip. Widnieje on tam, ponieważ nie należy do żadnego innego diva, a musi być absolutny do całości strony
@@ -60,12 +64,6 @@ Preview: http://kajtekjestem.pl/zakochani-w-powstaniu/index.html
 ...gdzie id pomaga odnaleźć elementowi z rozsuwanej listy element referencyjny, zdjecie jest wczytywane w tło diva tooltipa, a typ, nazwa i opis są wpisywane jako surowy tekst.
 
 6. Korzystam z ikonek Material Design. Są bardzo ładne. Podobają mi się.
-
-# Z czego nie jestem dumny
-
-1. Polecenie zawierało prośbę zrobienia funkcji "czytaj dalej". Nie czułem, że ta funkcja w jakikolwiek sposób do tej strony pasuje. Poza tym, nie miałem jakiegoś specjalnego sposobu na implementacje takiego czytania dalej. Odpuściłem ten przycisk.
-2. Obrazki po bokach. Niby nałożyłem na nie filtr w cssie i fajnie wygląda pod tą warstwą "papieru" półprzezroczystego, ale ich pozycja jest liczona relatywnie do góry strony. Bardzo niefajnie. Nie miałem innego pomysłu, który by nie wymagał narobienia się zanadto. Mógłbym liczyć pozycję listu za pomocą javascriptu, ale darowałem.
-3. Layout mi się nie podoba, ale `do what you gotta do`.
 
 
 # Ostatnie słowo
