@@ -77,7 +77,8 @@ a {
 
 #letter {
     width: 100%;
-    height: 1086px;
+    min-height: 1070px;
+    height: fit-content;
     margin-top: 80px;
     position: relative;
     color: #ae9683;
@@ -85,11 +86,37 @@ a {
 
 .paper {
     width: 527px;
-    height: 906px;
+    height: fit-content;
+    min-height: 906px;
     padding-top: 180px;
     padding-left: 67px;
     padding-right: 67px;
     z-index: 10;
+    background-repeat: no-repeat;
+}
+
+.peper-more {
+    width: 527px;
+    background-image: url(../img/letter-bg-repeat.png);
+    position: relative;
+    left: -67px;
+    padding-left: 67px;
+    padding-right: 67px;
+    display: none;
+}
+
+.showit {
+    display: block !important;
+}
+
+.paper-end {
+    width: 657px;
+    background-image: url(../img/letter-bg-repeat-end.png);
+    height: 116px;
+    position: relative;
+    left: -67px;
+    top: -47px;
+    z-index: -1;
 }
 
 .paper.p-left {
@@ -143,6 +170,11 @@ div#button {
     border: 2px solid #ae9683;
     font-family: Montserrat-SemiBold;
     font-size: 13px;
+}
+
+div#button:hover {
+    cursor: pointer;
+    background-color: #ae9683;
 }
 
 

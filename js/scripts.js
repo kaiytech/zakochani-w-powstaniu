@@ -84,5 +84,17 @@ $(function() {
         $(this).removeAttr("style");
         $(this).removeClass("und");
     });
+
+    $("#button").click(function(){
+        var id = $(this).attr("list");
+        $(this).remove();
+        $("#" + id).addClass("showit");
+
+        var h = $("#" + id + "-p").height();
+
+        console.log(h);
+
+        $("." + id + "-l").css("height", h + 110);
+    });
         
 });
