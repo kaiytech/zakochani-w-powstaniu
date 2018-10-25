@@ -8,6 +8,12 @@ Strona zakodowana przez: Kajetan Krawczyk
 
 Preview: http://kajtekjestem.pl/zakochani-w-powstaniu/index.html
 
+# Update 25/10/2018
+I didn't get hired. I was the second best person, so the first one got hired.
+
+(╯°□°）╯︵ ┻━┻
+
+
 # Update 18/10/2018
 * Obrazek w tle (pierwszy po lewej) teraz rzeczywiście się konwertuje z kolorowego na sepię w tle.
 * "Czytaj więcej..." działa.
