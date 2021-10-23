@@ -6,7 +6,7 @@ Layout zaprojektowany przez: Empressia
 
 Strona zakodowana przez: Kajetan Krawczyk
 
-Preview: http://kajtekjestem.pl/zakochani-w-powstaniu/index.html
+Preview: https://kaiytech.github.io/zakochani-w-powstaniu/index.html
 
 # Update 25/10/2018
 I didn't get hired. I was the second best person, so the first one got hired.
